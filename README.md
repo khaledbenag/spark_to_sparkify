@@ -42,5 +42,7 @@ After exploring the data and creating relevent features Three classifiers re use
      ** The F1 score on the test set is 88.90%
      ** The areaUnderROC on the test set is 94.50%
 
+# Acknowledgements
 
+Credit to [Udacity](https://www.udacity.com/) for the data.
 
