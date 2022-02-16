@@ -18,10 +18,29 @@ Sparkify is a music streaming simulation platform built by Udacity. Through this
 
 # Results
 
-After exploring the data and creating relevent features Three classifiers re used to predict the user churn (binary prediction):
-* Logistic regression
-* Random Forest
-* Decision trees
+After exploring the data and creating relevent features Three classifiers re used to predict the user churn (binary prediction). Models are tuned using gridsearch strategy with two paramters for each model and  CV folds. Results of the three models on the small data set are as follow::
 
-Models are tuned using gridsearch strategy with two paramters for each model and  CV folds. Results of the three models on the small data set are as follow:
+* Logistic regression
+  - Baseline: 
+     ** The F1 score on the test set is 80.65%
+     ** The areaUnderROC on the test set is 92.00%
+  - Params tuning:
+     ** The F1 score on the test set is 92.00%
+     ** The areaUnderROC on the test set is 93.00%
+* Random Forest
+  - Baseline: 
+     ** The F1 score on the test set is 82.38%
+     ** The areaUnderROC on the test set is 75.00%
+  - Params tuning:
+     ** The F1 score on the test set is 76.41%
+     ** The areaUnderROC on the test set is 85.00%
+* Decision trees
+  - Baseline: 
+     ** The F1 score on the test set is 88.39%
+     ** The areaUnderROC on the test set is 84.00%
+  - Params tuning:
+     ** The F1 score on the test set is 88.90%
+     ** The areaUnderROC on the test set is 94.50%
+
+
 
