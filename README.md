@@ -1,3 +1,5 @@
+
+![](images/sparkify.png)
 # spark_to_sparkify
 The code for Udacity NanoDegree capstone project :
 
