@@ -1,7 +1,7 @@
 
 ![](images/sparkify.png)
 # spark_to_sparkify
-The code for Udacity NanoDegree capstone project :
+The code for Udacity NanoDegree capstone project. For more details check my blog: https://k-benaggoune.medium.com/pyspark-to-sparkify-music-users-churn-prediction-4d75d4a2dd68
 
 # Background and motivation
 Sparkify is a music streaming simulation platform built by Udacity. Through this project, this platform's log data is provided to gain insights and develop a machine learning pipeline to predict churn. Users can listen to music for free (with ads between songs) or for a flat fee. They can upgrade, downgrade or cancel their subscription. The goal is to predict the user who will quit so as to offer him/her a significant discount before cancelling his/her subscription. User churn is a general problem that is extremely relevant and common in the industry. Recently, big data technologies offer a good solution to avoid user churn by providing relevant information to predict future customer behavior. That's why I chose this project that allows learning Spark, one of the most used big data technologies.
