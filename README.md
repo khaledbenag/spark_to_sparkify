@@ -44,6 +44,9 @@ After exploring the data and creating relevent features Three classifiers re use
      ** The F1 score on the test set is 88.90%
      ** The areaUnderROC on the test set is 94.50%
 
+# Perspectives
+In this project, we defined some features relevant to user churn problems from Sparkify logs. Feature selection/extraction is a vast area to discover, and there are different directions in this dataset to explore, such as extracting timestamp related features (registration period, monthly actions, daily logs, ...). Moreover, PySpark is an interesting tool that can be combined with other tools like kubeflow for machine learning model monitoring, and kubernetes for model orchestration (models in production).
+
 # Acknowledgements
 
 Credit to [Udacity](https://www.udacity.com/) for the data.
